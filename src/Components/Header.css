@@ -1,0 +1,35 @@
+.Header{
+    position: relative;
+}
+.image{
+    width:100%;
+    height: 90vh;
+}
+.info
+{
+position:absolute;
+margin-left:8rem;
+top:5rem;
+}
+.info h1{
+    font-size:5rem;
+    margin-bottom: 2rem;
+    position:relative;
+}
+.info button{
+    padding: 1rem 2rem;
+    border: none;
+    font-size: 1.2rem;
+    cursor:pointer;
+position: absolute;
+right:2rem;
+}
+@media screen and (min-width:280px) and (max-width:1080px){
+    .image{
+height: 50vh;
+    }
+    .info h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+}

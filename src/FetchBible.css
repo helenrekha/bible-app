@@ -1,0 +1,30 @@
+.verses{
+    display:flex;
+    flex-direction: column;
+    line-height: 3rem;
+    margin:3rem;
+}
+.biblesearch{
+    display: flex;
+    gap:2em;
+    justify-content: center;
+    margin:2rem
+    
+}
+.biblesearch button{
+    padding: 1  rem;
+    font-size: 1.1rem;
+}
+h1{
+    text-align: center;
+}
+
+.biblesearch input{
+margin: top 0.5rem;
+border-bottom: 1px solid #4f312b;
+}
+@media screen and(min-width:280px) and (max-width:1080px) {
+    .biblesearch{
+    }
+
+}
